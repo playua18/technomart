@@ -24,7 +24,6 @@ html {
 .btn {
   display: inline-block;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 38px;
   outline: none;
@@ -82,7 +81,6 @@ html {
 .search {
   float: left;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   height: 42px;
   vertical-align: top;
@@ -548,15 +546,12 @@ html {
   top: 50%;
   left: 50%;
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 25px;
   width: 100%;
   height: 130%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -601,8 +596,6 @@ html {
   z-index: 2;
   background: #000;
   -webkit-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   transform: translateX(-50%);
 }
 
@@ -633,7 +626,6 @@ html {
   height: inherit;
   opacity: 1;
   -webkit-transition: 0.3s;
-  -o-transition: 0.3s;
   transition: 0.3s;
 }
 
@@ -652,8 +644,6 @@ html {
   height: 24px;
   cursor: pointer;
   -webkit-transform: translateY(-12px) rotate(45deg);
-  -ms-transform: translateY(-12px) rotate(45deg);
-  -o-transform: translateY(-12px) rotate(45deg);
   transform: translateY(-12px) rotate(45deg);
 }
 
@@ -727,8 +717,6 @@ html {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -921,8 +909,6 @@ html {
   position: relative;
   top: 50%;
   -webkit-transform: translateY(-50%);
-  -ms-transform: translateY(-50%);
-  -o-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
@@ -1343,16 +1329,12 @@ html {
 .breadcrumbs li a::before {
   top: 0;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
 .breadcrumbs li a::after {
   bottom: 0;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -1767,7 +1749,7 @@ fieldset label {
   position: fixed;
   top: 50%;
   left: 50%;
-  z-index: 2;
+  z-index: 3;
   display: none;
   min-height: 275px;
   width: 620px;
@@ -1776,8 +1758,6 @@ fieldset label {
   -webkit-box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
   box-shadow: 0 20px 40px rgba(41, 52, 73, 0.75);
   -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
 }
 
@@ -1824,8 +1804,6 @@ fieldset label {
   left: 13px;
   width: 22px;
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
@@ -1834,8 +1812,6 @@ fieldset label {
   left: 21px;
   width: 36px;
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -1912,15 +1888,11 @@ fieldset label {
 
 .modal-item-close::before {
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .modal-item-close::after {
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
@@ -2054,7 +2026,6 @@ fieldset label {
 .modal-write-us input[type="text"],
 .modal-write-us textarea {
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
   box-sizing: border-box;
   padding: 0 15px;
   width: 100%;
@@ -2138,15 +2109,11 @@ fieldset label {
 
 .modal-close::before {
   -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  -o-transform: rotate(45deg);
   transform: rotate(45deg);
 }
 
 .modal-close::after {
   -webkit-transform: rotate(-45deg);
-  -ms-transform: rotate(-45deg);
-  -o-transform: rotate(-45deg);
   transform: rotate(-45deg);
 }
 
