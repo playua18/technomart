@@ -15,7 +15,7 @@ html {
   width: 940px;
 }
 
-.clearfix {
+.clearfix::after {
   display: table;
   clear: both;
   content: '';
@@ -1933,7 +1933,7 @@ fieldset label {
 }
 
 .log-out {
-  position: absolute !important;
+  position: absolute;
   right: 0;
   width: 44px;
 }
@@ -1958,10 +1958,6 @@ fieldset label {
 
 .log-out:active::after {
   background-position: -23px -575px;
-}
-
-.catalog .my-option {
-  float: left;
 }
 
 .catalog .my-option a {
